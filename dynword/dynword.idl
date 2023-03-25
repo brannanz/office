@@ -1,0 +1,29 @@
+// dynword.idl : type library source for dynword.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (dynword.tlb).
+
+[ uuid(95924f27-585a-47b5-a3d7-fd834296569a), version(1.0) ]
+library dynword
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CWordDoc
+
+	[ uuid(2e97d5bf-fb4f-4c22-a2ce-f8c1bea5632f) ]
+	dispinterface Idynword
+	{
+		properties:
+
+		methods:
+	};
+
+	//  Class information for CWordDoc
+
+	[ uuid(9d24bd00-e4ad-4b58-894a-360adf9dc900) ]
+	coclass CWordDoc
+	{
+		[default] dispinterface Idynword;
+	};
+};

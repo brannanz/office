@@ -1,0 +1,36 @@
+﻿  Processing .\dynword.idl
+  dynword.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\objidl.idl
+  objidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\basetsd.h
+  basetsd.h
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\guiddef.h
+  guiddef.h
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\oaidl.acf
+  oaidl.acf
+  pch.cpp
+  CntrItem.cpp
+E:\VisualStudio\office\dynword\WordView.h(66,29): error C2511: 'CWordDoc *CWordView::GetDocument(void) const': overloaded member function not found in 'CWordView'
+E:\VisualStudio\office\dynword\WordView.h(9,7): message : see declaration of 'CWordView'
+E:\VisualStudio\office\dynword\WordView.h(67,13): error C2440: 'reinterpret_cast': cannot convert from 'unknown' to 'CWordDoc *'
+E:\VisualStudio\office\dynword\WordView.h(67,13): message : There is no context in which this conversion is possible
+  dynword.cpp
+E:\VisualStudio\office\dynword\WordView.h(66,29): error C2511: 'CWordDoc *CWordView::GetDocument(void) const': overloaded member function not found in 'CWordView'
+E:\VisualStudio\office\dynword\WordView.h(9,7): message : see declaration of 'CWordView'
+E:\VisualStudio\office\dynword\WordView.h(67,13): error C2440: 'reinterpret_cast': cannot convert from 'unknown' to 'CWordDoc *'
+E:\VisualStudio\office\dynword\WordView.h(67,13): message : There is no context in which this conversion is possible
+  MainFrm.cpp
+  WordDoc.cpp
+  WordView.cpp
+E:\VisualStudio\office\dynword\WordView.h(66,29): error C2511: 'CWordDoc *CWordView::GetDocument(void) const': overloaded member function not found in 'CWordView'
+E:\VisualStudio\office\dynword\WordView.h(9,7): message : see declaration of 'CWordView'
+E:\VisualStudio\office\dynword\WordView.h(67,13): error C2440: 'reinterpret_cast': cannot convert from 'unknown' to 'CWordDoc *'
+E:\VisualStudio\office\dynword\WordView.h(67,13): message : There is no context in which this conversion is possible

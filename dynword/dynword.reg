@@ -1,0 +1,22 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.ddoc = dynword.Document
+HKEY_CLASSES_ROOT\dynword.Document\shell\open\command = dynword.EXE %1
+HKEY_CLASSES_ROOT\dynword.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\dynword.Document\shell\open\ddeexec\application = dynword
+    ; note: the application is optional
+    ;  (it defaults to the app name in "command")
+
+HKEY_CLASSES_ROOT\dynword.Document = dynword.Document
+
+
+HKEY_CLASSES_ROOT\dynword.Document\CLSID = {9d24bd00-e4ad-4b58-894a-360adf9dc900}
+
+HKEY_CLASSES_ROOT\CLSID\{9d24bd00-e4ad-4b58-894a-360adf9dc900} = dynword.Document
+HKEY_CLASSES_ROOT\CLSID\{9d24bd00-e4ad-4b58-894a-360adf9dc900}\ProgId = dynword.Document
+
+HKEY_CLASSES_ROOT\CLSID\{9d24bd00-e4ad-4b58-894a-360adf9dc900}\LocalServer32 = dynword.EXE
